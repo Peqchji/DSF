@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2022-10-01T21:41:44</DateModified>
+  <DateModified>2022-10-11T15:40:58</DateModified>
   <ModuleName>Lab05_no2</ModuleName>
   <SummaryTimeStamp>2022-09-19T17:49:25</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/LAB5/iseconfig/Lab05_no2.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/LAB5\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/DSF/LAB05/iseconfig/Lab05_no2.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/DSF/LAB05\</ImplementationReportsDirectory>
   <DateInitialized>2022-09-16T21:07:37</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

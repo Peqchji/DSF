@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name LAB5 -dir "C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/LAB5/planAhead_run_3" -part xc6slx9tqg144-3
+create_project -name LAB5 -dir "C:/Users/Peqch/Desktop/Digital system Fundamental/ISE/DSF/LAB05/planAhead_run_4" -part xc6slx9tqg144-3
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "Lab05.ucf" [current_fileset -constrset]

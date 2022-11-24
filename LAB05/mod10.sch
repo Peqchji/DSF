@@ -12,14 +12,9 @@
         <signal name="XLXN_4" />
         <signal name="XLXN_5" />
         <signal name="XLXN_6" />
-        <signal name="XLXN_7" />
         <signal name="XLXN_8" />
         <signal name="XLXN_9" />
-        <signal name="XLXN_10" />
         <signal name="P123" />
-        <signal name="XLXN_12" />
-        <signal name="XLXN_17" />
-        <signal name="XLXN_18" />
         <signal name="XLXN_19" />
         <port polarity="Output" name="XLXN_8" />
         <port polarity="Input" name="P123" />

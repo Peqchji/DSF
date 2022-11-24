@@ -4,7 +4,7 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
 -n 3 -fastpaths -xml Lab_00.twx Lab_00.ncd -o Lab_00.twr Lab_00.pcf -ucf
-Lab_00Pin.ucf -ucf Lab_00.ucf
+Lab_00.ucf
 
 Design file:              Lab_00.ncd
 Physical constraint file: Lab_00.pcf
@@ -36,14 +36,12 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-SW0_P66        |LED0_P74       |    6.180|
-SW0_P66        |LED1_P67       |    5.994|
-SW1_P62        |LED0_P74       |    6.100|
-SW1_P62        |LED1_P67       |    6.295|
+XLXN_2         |XLXN_4         |    6.747|
+XLXN_3         |XLXN_4         |    6.281|
 ---------------+---------------+---------+
 
 
-Analysis completed Mon Sep 05 16:11:21 2022 
+Analysis completed Tue Oct 04 14:56:06 2022 
 --------------------------------------------------------------------------------
 
 Trace Settings:

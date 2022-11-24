@@ -90,13 +90,9 @@
         <signal name="XLXN_1050" />
         <signal name="Clock_P47" />
         <signal name="Pin123" />
-        <signal name="XLXN_1058" />
         <signal name="XLXN_1060" />
         <signal name="XLXN_1061" />
-        <signal name="XLXN_1062" />
         <signal name="XLXN_1063" />
-        <signal name="XLXN_1064" />
-        <signal name="XLXN_1065" />
         <port polarity="Output" name="a_P41" />
         <port polarity="Output" name="b_P40" />
         <port polarity="Output" name="c_P35" />

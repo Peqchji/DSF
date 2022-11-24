@@ -45,11 +45,11 @@ Clock Clock_P46 to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-a_P41       |         9.262(R)|      SLOW  |         4.977(R)|      FAST  |XLXN_1060         |   0.000|
-b_P40       |         8.610(R)|      SLOW  |         4.773(R)|      FAST  |XLXN_1060         |   0.000|
-c_P35       |         9.033(R)|      SLOW  |         4.732(R)|      FAST  |XLXN_1060         |   0.000|
-d_P34       |         8.521(R)|      SLOW  |         4.553(R)|      FAST  |XLXN_1060         |   0.000|
-e_P32       |         8.903(R)|      SLOW  |         4.634(R)|      FAST  |XLXN_1060         |   0.000|
+a_P41       |         9.259(R)|      SLOW  |         4.971(R)|      FAST  |XLXN_1060         |   0.000|
+b_P40       |         8.604(R)|      SLOW  |         4.767(R)|      FAST  |XLXN_1060         |   0.000|
+c_P35       |         8.791(R)|      SLOW  |         4.778(R)|      FAST  |XLXN_1060         |   0.000|
+d_P34       |         8.515(R)|      SLOW  |         4.553(R)|      FAST  |XLXN_1060         |   0.000|
+e_P32       |         8.897(R)|      SLOW  |         4.634(R)|      FAST  |XLXN_1060         |   0.000|
 f_P29       |         9.710(R)|      SLOW  |         4.920(R)|      FAST  |XLXN_1060         |   0.000|
 g_P27       |         9.320(R)|      SLOW  |         5.081(R)|      FAST  |XLXN_1060         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
@@ -81,7 +81,7 @@ Pin123         |    0.867|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Sep 19 18:34:15 2022 
+Analysis completed Mon Oct 03 14:05:39 2022 
 --------------------------------------------------------------------------------
 
 Trace Settings:

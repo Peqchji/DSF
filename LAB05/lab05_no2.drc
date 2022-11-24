@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Sep 19 18:34:31 2022
+Mon Oct 03 14:05:46 2022
 
 drc -z Lab05_no2.ncd Lab05_no2.pcf
 

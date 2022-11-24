@@ -6,73 +6,48 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_1" />
-        <signal name="SW1_P62" />
-        <signal name="SW0_P66" />
-        <signal name="LED1_P67" />
-        <signal name="LED0_P74" />
-        <port polarity="Input" name="SW1_P62" />
-        <port polarity="Input" name="SW0_P66" />
-        <port polarity="Output" name="LED1_P67" />
-        <port polarity="Output" name="LED0_P74" />
-        <blockdef name="and2">
+        <signal name="XLXN_2" />
+        <signal name="XLXN_3" />
+        <signal name="XLXN_4" />
+        <port polarity="Input" name="XLXN_2" />
+        <port polarity="Input" name="XLXN_3" />
+        <port polarity="Output" name="XLXN_4" />
+        <blockdef name="comp2">
             <timestamp>2000-1-1T10:10:10</timestamp>
-            <line x2="64" y1="-64" y2="-64" x1="0" />
+            <rect width="256" x="64" y="-384" height="320" />
+            <line x2="320" y1="-224" y2="-224" x1="384" />
             <line x2="64" y1="-128" y2="-128" x1="0" />
-            <line x2="192" y1="-96" y2="-96" x1="256" />
-            <arc ex="144" ey="-144" sx="144" sy="-48" r="48" cx="144" cy="-96" />
-            <line x2="64" y1="-48" y2="-48" x1="144" />
-            <line x2="144" y1="-144" y2="-144" x1="64" />
-            <line x2="64" y1="-48" y2="-144" x1="64" />
+            <line x2="64" y1="-192" y2="-192" x1="0" />
+            <line x2="64" y1="-256" y2="-256" x1="0" />
+            <line x2="64" y1="-320" y2="-320" x1="0" />
         </blockdef>
-        <blockdef name="xor2">
-            <timestamp>2000-1-1T10:10:10</timestamp>
-            <line x2="64" y1="-64" y2="-64" x1="0" />
-            <line x2="60" y1="-128" y2="-128" x1="0" />
-            <line x2="208" y1="-96" y2="-96" x1="256" />
-            <arc ex="44" ey="-144" sx="48" sy="-48" r="56" cx="16" cy="-96" />
-            <arc ex="64" ey="-144" sx="64" sy="-48" r="56" cx="32" cy="-96" />
-            <line x2="64" y1="-144" y2="-144" x1="128" />
-            <line x2="64" y1="-48" y2="-48" x1="128" />
-            <arc ex="128" ey="-144" sx="208" sy="-96" r="88" cx="132" cy="-56" />
-            <arc ex="208" ey="-96" sx="128" sy="-48" r="88" cx="132" cy="-136" />
-        </blockdef>
-        <block symbolname="and2" name="XLXI_1">
-            <blockpin signalname="SW1_P62" name="I0" />
-            <blockpin signalname="SW0_P66" name="I1" />
-            <blockpin signalname="LED1_P67" name="O" />
-        </block>
-        <block symbolname="xor2" name="XLXI_2">
-            <blockpin signalname="SW1_P62" name="I0" />
-            <blockpin signalname="SW0_P66" name="I1" />
-            <blockpin signalname="LED0_P74" name="O" />
+        <block symbolname="comp2" name="XLXI_3">
+            <blockpin signalname="XLXN_2" name="A0" />
+            <blockpin signalname="XLXN_2" name="A1" />
+            <blockpin signalname="XLXN_3" name="B0" />
+            <blockpin signalname="XLXN_3" name="B1" />
+            <blockpin signalname="XLXN_4" name="EQ" />
         </block>
     </netlist>
     <sheet sheetnum="1" width="3520" height="2720">
-        <instance x="1312" y="944" name="XLXI_1" orien="R0" />
-        <instance x="1312" y="1104" name="XLXI_2" orien="R0" />
-        <branch name="SW1_P62">
-            <wire x2="1280" y1="880" y2="880" x1="1152" />
-            <wire x2="1312" y1="880" y2="880" x1="1280" />
-            <wire x2="1280" y1="880" y2="1040" x1="1280" />
-            <wire x2="1312" y1="1040" y2="1040" x1="1280" />
+        <instance x="1520" y="960" name="XLXI_3" orien="R0" />
+        <branch name="XLXN_2">
+            <wire x2="1504" y1="640" y2="640" x1="1360" />
+            <wire x2="1520" y1="640" y2="640" x1="1504" />
+            <wire x2="1504" y1="640" y2="704" x1="1504" />
+            <wire x2="1520" y1="704" y2="704" x1="1504" />
         </branch>
-        <branch name="SW0_P66">
-            <wire x2="1184" y1="816" y2="816" x1="1152" />
-            <wire x2="1200" y1="816" y2="816" x1="1184" />
-            <wire x2="1312" y1="816" y2="816" x1="1200" />
-            <wire x2="1200" y1="816" y2="976" x1="1200" />
-            <wire x2="1312" y1="976" y2="976" x1="1200" />
+        <branch name="XLXN_3">
+            <wire x2="1504" y1="768" y2="768" x1="1360" />
+            <wire x2="1520" y1="768" y2="768" x1="1504" />
+            <wire x2="1504" y1="768" y2="832" x1="1504" />
+            <wire x2="1520" y1="832" y2="832" x1="1504" />
         </branch>
-        <iomarker fontsize="28" x="1152" y="816" name="SW0_P66" orien="R180" />
-        <iomarker fontsize="28" x="1152" y="880" name="SW1_P62" orien="R180" />
-        <branch name="LED1_P67">
-            <wire x2="1600" y1="848" y2="848" x1="1568" />
+        <iomarker fontsize="28" x="1360" y="640" name="XLXN_2" orien="R180" />
+        <iomarker fontsize="28" x="1360" y="768" name="XLXN_3" orien="R180" />
+        <branch name="XLXN_4">
+            <wire x2="1936" y1="736" y2="736" x1="1904" />
         </branch>
-        <iomarker fontsize="28" x="1600" y="848" name="LED1_P67" orien="R0" />
-        <branch name="LED0_P74">
-            <wire x2="1600" y1="1008" y2="1008" x1="1568" />
-        </branch>
-        <iomarker fontsize="28" x="1600" y="1008" name="LED0_P74" orien="R0" />
+        <iomarker fontsize="28" x="1936" y="736" name="XLXN_4" orien="R0" />
     </sheet>
 </drawing>

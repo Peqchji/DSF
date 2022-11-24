@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.62 secs
+Total CPU time to Xst completion: 0.54 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.63 secs
+Total CPU time to Xst completion: 0.54 secs
  
 --> Reading design: Lab05_no2.prj
 
@@ -105,9 +105,9 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\mod10.vf" into library work
+Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\mod10.vf" into library work
 Parsing module <mod10>.
-Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" into library work
+Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" into library work
 Parsing module <FJKC_HXILINX_Lab05_no2>.
 Parsing module <mod10_MUSER_Lab05_no2>.
 Parsing module <Lab05_no2>.
@@ -139,45 +139,45 @@ Elaborating module <GND>.
 Elaborating module <mod10_MUSER_Lab05_no2>.
 
 Elaborating module <FDC>.
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 404: Assignment to XLXN_1049 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 407: Assignment to XLXN_1048 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 410: Assignment to XLXN_1047 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 413: Assignment to XLXN_1046 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 416: Assignment to XLXN_1045 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 419: Assignment to XLXN_1044 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 422: Assignment to XLXN_1050 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 404: Assignment to XLXN_1049 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 407: Assignment to XLXN_1048 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 410: Assignment to XLXN_1047 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 413: Assignment to XLXN_1046 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 416: Assignment to XLXN_1045 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 419: Assignment to XLXN_1044 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 422: Assignment to XLXN_1050 ignored, since the identifier is never used
 
 Elaborating module <FD(INIT=1'b0)>.
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 429: Assignment to XLXN_1044 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 430: Assignment to XLXN_1045 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 431: Assignment to XLXN_1046 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 432: Assignment to XLXN_1047 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 433: Assignment to XLXN_1048 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 434: Assignment to XLXN_1049 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" Line 435: Assignment to XLXN_1050 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 429: Assignment to XLXN_1044 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 430: Assignment to XLXN_1045 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 431: Assignment to XLXN_1046 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 432: Assignment to XLXN_1047 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 433: Assignment to XLXN_1048 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 434: Assignment to XLXN_1049 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" Line 435: Assignment to XLXN_1050 ignored, since the identifier is never used
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Lab05_no2>.
-    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf".
+    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf".
     Set property "HU_SET = XLXI_513_0" for instance <XLXI_513>.
     Set property "HU_SET = XLXI_514_1" for instance <XLXI_514>.
     Set property "HU_SET = XLXI_515_2" for instance <XLXI_515>.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 403: Output port <XLXN_8> of the instance <XLXI_651> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 406: Output port <XLXN_8> of the instance <XLXI_652> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 409: Output port <XLXN_8> of the instance <XLXI_653> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 412: Output port <XLXN_8> of the instance <XLXI_654> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 415: Output port <XLXN_8> of the instance <XLXI_655> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 418: Output port <XLXN_8> of the instance <XLXI_656> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf" line 421: Output port <XLXN_8> of the instance <XLXI_657> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 403: Output port <XLXN_8> of the instance <XLXI_651> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 406: Output port <XLXN_8> of the instance <XLXI_652> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 409: Output port <XLXN_8> of the instance <XLXI_653> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 412: Output port <XLXN_8> of the instance <XLXI_654> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 415: Output port <XLXN_8> of the instance <XLXI_655> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 418: Output port <XLXN_8> of the instance <XLXI_656> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf" line 421: Output port <XLXN_8> of the instance <XLXI_657> is unconnected or connected to loadless signal.
     Summary:
 	no macro.
 Unit <Lab05_no2> synthesized.
 
 Synthesizing Unit <FJKC_HXILINX_Lab05_no2>.
-    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf".
+    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf".
         INIT = 1'b0
     Found 1-bit register for signal <Q>.
     Summary:
@@ -186,7 +186,7 @@ Synthesizing Unit <FJKC_HXILINX_Lab05_no2>.
 Unit <FJKC_HXILINX_Lab05_no2> synthesized.
 
 Synthesizing Unit <mod10_MUSER_Lab05_no2>.
-    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB5\Lab05_no2.vf".
+    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB05\Lab05_no2.vf".
     Summary:
 	no macro.
 Unit <mod10_MUSER_Lab05_no2> synthesized.
@@ -1382,12 +1382,12 @@ XLXN_1063      |    2.312|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 35.00 secs
-Total CPU time to Xst completion: 34.56 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.96 secs
  
 --> 
 
-Total memory usage is 4517156 kilobytes
+Total memory usage is 4485796 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   14 (   0 filtered)

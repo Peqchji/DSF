@@ -1,7 +1,7 @@
 Release 14.7 - par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Sep 19 18:34:04 2022
+Mon Oct 03 14:05:31 2022
 
 
 INFO: The IO information is provided in three file formats as part of the Place and Route (PAR) process.  These formats are:
@@ -64,10 +64,10 @@ Pinout by Pin Number:
 |P42       |           |         |VCCO_2                    |         |           |2             |          |         |           |         |2.50     |          |           |                |
 |P43       |XLXN_927   |IOB      |IO_L62N_D6_2              |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
 |P44       |XLXN_923   |IOB      |IO_L62P_D5_2              |OUTPUT   |LVCMOS25*  |2             |12        |SLOW     |           |         |         |LOCATED   |NO         |NONE            |
-|P45       |           |IOBS     |IO_L49N_D4_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
-|P46       |Clock_P46  |IOB      |IO_L49P_D3_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
-|P47       |Clock_P47  |IOB      |IO_L48N_RDWR_B_VREF_2     |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
-|P48       |           |IOBM     |IO_L48P_D7_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
+|P45       |Clock_P46  |IOB      |IO_L49N_D4_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
+|P46       |           |IOBM     |IO_L49P_D3_2              |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
+|P47       |           |IOBS     |IO_L48N_RDWR_B_VREF_2     |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
+|P48       |Clock_P47  |IOB      |IO_L48P_D7_2              |INPUT    |LVCMOS25*  |2             |          |         |           |NONE     |         |LOCATED   |NO         |NONE            |
 |P49       |           |         |GND                       |         |           |              |          |         |           |         |         |          |           |                |
 |P50       |           |IOBS     |IO_L31N_GCLK30_D15_2      |UNUSED   |           |2             |          |         |           |         |         |          |           |                |
 |P51       |           |IOBM     |IO_L31P_GCLK31_D14_2      |UNUSED   |           |2             |          |         |           |         |         |          |           |                |

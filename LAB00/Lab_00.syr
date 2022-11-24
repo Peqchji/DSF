@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.54 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.36 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.55 secs
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 1.36 secs
  
 --> Reading design: Lab_00.prj
 
@@ -105,7 +105,8 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB00\Lab_00.vf" into library work
+Analyzing Verilog file "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB00\Lab_00.vf" into library work
+Parsing module <COMP2_HXILINX_Lab_00>.
 Parsing module <Lab_00>.
 
 =========================================================================
@@ -114,24 +115,34 @@ Parsing module <Lab_00>.
 
 Elaborating module <Lab_00>.
 
-Elaborating module <AND2>.
-
-Elaborating module <XOR2>.
+Elaborating module <COMP2_HXILINX_Lab_00>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Lab_00>.
-    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\LAB00\Lab_00.vf".
+    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB00\Lab_00.vf".
+    Set property "HU_SET = XLXI_3_0" for instance <XLXI_3>.
     Summary:
 	no macro.
 Unit <Lab_00> synthesized.
 
+Synthesizing Unit <COMP2_HXILINX_Lab_00>.
+    Related source file is "C:\Users\Peqch\Desktop\Digital system Fundamental\ISE\DSF\LAB00\Lab_00.vf".
+    Found 1-bit comparator equal for signal <A0_B0_equal_1_o> created at line 33
+    Found 1-bit comparator equal for signal <A1_B1_equal_2_o> created at line 33
+    Summary:
+	inferred   2 Comparator(s).
+Unit <COMP2_HXILINX_Lab_00> synthesized.
+
 =========================================================================
 HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Comparators                                          : 2
+ 1-bit comparator equal                                : 2
+
 =========================================================================
 
 =========================================================================
@@ -142,7 +153,10 @@ Found no macro
 =========================================================================
 Advanced HDL Synthesis Report
 
-Found no macro
+Macro Statistics
+# Comparators                                          : 2
+ 1-bit comparator equal                                : 2
+
 =========================================================================
 
 =========================================================================
@@ -150,6 +164,8 @@ Found no macro
 =========================================================================
 
 Optimizing unit <Lab_00> ...
+
+Optimizing unit <COMP2_HXILINX_Lab_00> ...
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -182,12 +198,11 @@ Top Level Output File Name         : Lab_00.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2
-#      AND2                        : 1
-#      XOR2                        : 1
-# IO Buffers                       : 4
+# BELS                             : 1
+#      LUT4                        : 1
+# IO Buffers                       : 3
 #      IBUF                        : 2
-#      OBUF                        : 2
+#      OBUF                        : 1
 
 Device utilization summary:
 ---------------------------
@@ -196,17 +211,19 @@ Selected Device : 6slx9tqg144-3
 
 
 Slice Logic Utilization: 
+ Number of Slice LUTs:                    1  out of   5720     0%  
+    Number used as Logic:                 1  out of   5720     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:      0
-   Number with an unused Flip Flop:       0  out of      0         
-   Number with an unused LUT:             0  out of      0         
-   Number of fully used LUT-FF pairs:     0  out of      0         
+ Number of LUT Flip Flop pairs used:      1
+   Number with an unused Flip Flop:       1  out of      1   100%  
+   Number with an unused LUT:             0  out of      1     0%  
+   Number of fully used LUT-FF pairs:     0  out of      1     0%  
    Number of unique control sets:         0
 
 IO Utilization: 
- Number of IOs:                           4
- Number of bonded IOBs:                   4  out of    102     3%  
+ Number of IOs:                           3
+ Number of bonded IOBs:                   3  out of    102     2%  
 
 Specific Feature Utilization:
 
@@ -241,7 +258,7 @@ Speed Grade: -3
    Minimum period: No path found
    Minimum input arrival time before clock: No path found
    Maximum output required time after clock: No path found
-   Maximum combinational path delay: 5.556ns
+   Maximum combinational path delay: 5.439ns
 
 Timing Details:
 ---------------
@@ -249,22 +266,24 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 4 / 2
+  Total number of paths / destination ports: 4 / 1
 -------------------------------------------------------------------------
-Delay:               5.556ns (Levels of Logic = 3)
-  Source:            SW1_P62 (PAD)
-  Destination:       LED0_P74 (PAD)
+Delay:               5.439ns (Levels of Logic = 4)
+  Source:            XLXN_2 (PAD)
+  Destination:       XLXN_4 (PAD)
 
-  Data Path: SW1_P62 to LED0_P74
+  Data Path: XLXN_2 to XLXN_4
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   1.222   0.981  SW1_P62_IBUF (SW1_P62_IBUF)
-     AND2:I0->O            1   0.203   0.579  XLXI_1 (LED1_P67_OBUF)
-     OBUF:I->O                 2.571          LED1_P67_OBUF (LED1_P67)
+     IBUF:I->O             2   1.222   0.864  XLXN_2_IBUF (XLXN_2_IBUF)
+     begin scope: 'XLXI_3:A1'
+     LUT4:I0->O            1   0.203   0.579  EQ1 (EQ)
+     end scope: 'XLXI_3:EQ'
+     OBUF:I->O                 2.571          XLXN_4_OBUF (XLXN_4)
     ----------------------------------------
-    Total                      5.556ns (3.996ns logic, 1.560ns route)
-                                       (71.9% logic, 28.1% route)
+    Total                      5.439ns (3.996ns logic, 1.443ns route)
+                                       (73.5% logic, 26.5% route)
 
 =========================================================================
 
@@ -274,12 +293,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 21.24 secs
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 23.18 secs
  
 --> 
 
-Total memory usage is 4485800 kilobytes
+Total memory usage is 4485796 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

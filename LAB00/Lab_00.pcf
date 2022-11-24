@@ -1,11 +1,10 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon Sep 05 16:11:02 2022
+// Written by: Map P.20131013 on Tue Oct 04 14:55:41 2022
 //! **************************************************************************
 
 SCHEMATIC START;
-COMP "SW0_P66" LOCATE = SITE "P66" LEVEL 1;
-COMP "SW1_P62" LOCATE = SITE "P62" LEVEL 1;
-COMP "LED0_P74" LOCATE = SITE "P74" LEVEL 1;
-COMP "LED1_P67" LOCATE = SITE "P67" LEVEL 1;
+COMP "XLXN_2" LOCATE = SITE "P56" LEVEL 1;
+COMP "XLXN_3" LOCATE = SITE "P57" LEVEL 1;
+COMP "XLXN_4" LOCATE = SITE "P67" LEVEL 1;
 SCHEMATIC END;
 
